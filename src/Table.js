@@ -31,7 +31,7 @@ function TableBody(props) {
 }
 
 function Table(props){
-    if (!props.users) {
+    if (!props.users || !props.users.length) {
         return null
     }
     return (
