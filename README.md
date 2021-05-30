@@ -1,3 +1,7 @@
+# Homeserver project
+
+This is meant to be a static frontend to my homeserver, making API calls to get info. For now, it only looks up whether an MC server is up, and if it is, who is online
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
