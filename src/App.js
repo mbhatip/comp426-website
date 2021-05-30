@@ -8,7 +8,7 @@ function App() {
     useEffect(() => {
         async function getStatus() {
             try {
-                const res = await fetch("https://memohat.xyz/api/status");
+                const res = await fetch(process.env.DOMAIN_MC_SERVER_STATUS);
                 setStatus(await res.json())
             } catch (error) {
                 setStatus(null)
