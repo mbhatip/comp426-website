@@ -407,7 +407,7 @@ h5 {
   font-weight: 600;
   font-family: -apple-system, BlinkMacSystemFont, Helvetica Neue, Helvetica, Arial, sans-serif;
   line-height: 1.2;
-  color: #404040;
+  /*color: #404040;*/
 }
 
 h1:not(:first-child),
@@ -983,15 +983,18 @@ table {
 }
 
 thead th {
-  border-bottom: 2px solid #dedede;
+  /*border-bottom: 2px solid #dedede;*/
+  border-bottom: 2px solid;
 }
 
 tfoot th {
-  border-top: 2px solid #dedede;
+  /*border-top: 2px solid #dedede;*/
+  border-top: 2px solid ;
 }
 
 td {
-  border-bottom: 1px solid #dedede;
+  /*border-bottom: 1px solid #dedede;*/
+  border-bottom: 1px solid;
 }
 
 th,
