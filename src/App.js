@@ -15,12 +15,12 @@ import { FirebaseAuth } from "react-firebaseui";
 import * as firebaseui from 'firebaseui';
 
 firebase.initializeApp({
-  apiKey: 		process.env.REACT_APP_FIREBASE_APIKEY,
-  authDomain: 		process.env.REACT_APP_FIREBASE_AUTHDOMAIN,
-  projectId: 		process.env.REACT_APP_FIREBASE_PROJECTID,
-  storageBucket: 	process.env.REACT_APP_FIREBASE_STORAGEBUCKET,
-  messagingSenderId: 	process.env.REACT_APP_FIREBASE_MESSAGINGSENDERID,
-  appId: 		process.env.REACT_APP_FIREBASE_APPID
+  apiKey: "AIzaSyBz28NvX0piyVAk51EmB25sn5nkJkC5OjQ",
+  authDomain: "comp426-backend.firebaseapp.com",
+  projectId: "comp426-backend",
+  storageBucket: "comp426-backend.appspot.com",
+  messagingSenderId: "529555466820",
+  appId: "1:529555466820:web:d0c1eac3456d3f46372a11"
 });
 
 function App() {
