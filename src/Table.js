@@ -17,7 +17,7 @@ function TableElement(props) {
     const [names, setNames] = useState(null)
     const [hover, setHover] = useState(false)
     useEffect(() => {
-        if (names) {return}
+        if (names && names[names.length-1] === props.user['name']) return 
         async function getNames() {
             try {
                 const res = await fetch(`https://www.mc-heads.net/minecraft/profile/${uuid}`);
